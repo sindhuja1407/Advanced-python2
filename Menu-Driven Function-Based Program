@@ -1,0 +1,32 @@
+def sq():
+  s=int(input("enter side:"))
+  print("Area: ",s*s)
+def rect(a,b):
+  print("AREA: ",a*b)
+def cir():
+  r=int(input("enter radious: "))
+  return 3.14*r*r
+def tri(b,h):
+  return 0.5*b*h
+while True:
+  print("1,SQ")u7
+  print("2.RECT")
+  print("3.CIR")
+  print("4.TRI")
+  print("5.exit")
+  ch=int(input("enter ur choice: "))
+  if ch==1:
+    sq()
+  elif ch==2:
+    l=int(input("enter len:"))
+    b=int(input("enter breath:"))
+    rec(l,b)
+  elif ch==3:
+    x=cir()
+    print("AREA::",x)
+  elif ch==4:
+    b=int(input("enter "))
+    y=tri(b,h)
+    print("AREA:",y)
+  else:
+    break
