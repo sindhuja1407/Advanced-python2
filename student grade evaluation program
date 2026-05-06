@@ -1,0 +1,16 @@
+name = ["ram","raj","rose","jack","pavi"]
+marks = [[30,40,50],[66,77,55],[33,78,90],[87,97,57],[47,88,44]]
+
+for i in range(len(name)):
+    avg = sum(marks[i]) / len(marks[i])
+    
+    if avg > 80:
+        grade = "S"
+    elif avg < 40:
+        grade = "F"
+    elif avg>40 and avg<60:
+        grade = "B"
+    else:
+        grade = "A"
+    
+    print(f"Mr/Ms {name[i]} has scored {int(avg)}% - {grade} grade")
