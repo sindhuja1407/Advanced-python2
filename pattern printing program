@@ -1,0 +1,7 @@
+a=20
+for i in range(4,1,-1):
+  for j in range(i):
+    print("*****")
+  print(a)
+  a-=5
+  print("------")
