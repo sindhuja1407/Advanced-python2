@@ -1,0 +1,12 @@
+class abc:
+  num=100   #class variable
+  def set_dim(self,a,b):
+    self.total=a+b+abc.num              #global
+  def display(self):
+    print("Addition is:",self.total)
+a=abc() #local
+b=abc() #local
+a.set_dim(20,30)
+b.set_dim(30,50)
+a.display()
+b.display()
