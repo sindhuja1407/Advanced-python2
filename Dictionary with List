@@ -1,0 +1,3 @@
+d={'name':'gill','age':45,'runs':4000}
+d['marks']=[2,3,4,5]
+print(d['marks'][1])
