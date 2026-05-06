@@ -1,0 +1,14 @@
+def a1():
+  print(10+40)
+def a2(a,b):
+  print(a+b)
+def a3():
+  a=90
+  b=11
+  return a+b
+def a4(a,b):
+  return a+b
+a1()
+a2(10,20)
+res=a3()
+res1=a4(90,60)
