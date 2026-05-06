@@ -1,0 +1,10 @@
+def lahari(a):
+  if a==1:
+    return
+  i=3
+  while(a%i !=0):
+    i=i+1
+  print(i,end=" ")
+  lahari(a/i)
+a=int(input("enter any num: "))
+lahari(a)
